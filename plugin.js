@@ -417,25 +417,6 @@
                                                 ]
                                             }
                                         ]
-                                    }, {
-                                        type: 'hbox',
-                                        id: 'alignment',
-                                        children: [
-                                            {
-                                                id: 'align',
-                                                type: 'radio',
-                                                items: [
-                                                    [editor.lang.oembed.none, 'none'],
-                                                    [editor.lang.common.alignLeft, 'left'],
-                                                    [editor.lang.common.alignCenter, 'center'],
-                                                    [editor.lang.common.alignRight, 'right']
-                                                ],
-                                                label: editor.lang.common.align,
-                                                setup: function(widget) {
-                                                    this.setValue(widget.data.align);
-                                                }
-                                            }
-                                        ]
                                     }
                                 ]
                             }
